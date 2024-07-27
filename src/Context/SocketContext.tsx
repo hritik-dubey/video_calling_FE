@@ -5,7 +5,7 @@ import Peer from "peerjs";
 import { v4 as UUIDv4 } from "uuid";
 import { peerReducer } from "../Reducers/peerReducer";
 import { addPeerAction } from "../Actions/peerAction";
-const WS_Server = "http://localhost:5500";
+const WS_Server = "https://video-calling-be.onrender.com";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const SocketContext = createContext<any | null>(null);
